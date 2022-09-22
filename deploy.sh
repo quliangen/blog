@@ -9,6 +9,10 @@ pnpm run build
 # 进入待发布的目录
 cd docs/.vitepress/dist
 
+# 清理 .git 解决：Reinitialized existing Git repository
+find . -name ".git"
+rm -rf ./.git      
+
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
