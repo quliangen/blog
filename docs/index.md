@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /standard/one
+      link: /standard/code-comment
 
 features:
   - title: 🦄 规范  
@@ -20,5 +20,7 @@ features:
     details: 工程化.
   - title: 🐛 爬坑指北
     details: 爬坑指北
+  - title: 🦋 武器库
+    details: 武器库
 
 ---
