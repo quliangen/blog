@@ -15,12 +15,12 @@ hero:
 
 features:
   - title: 🦄 规范  
-    details: 规范.
+    details: 代码规范、Git 规范、文档模板.
   - title: 🐲 工程化 
-    details: 工程化.
+    details: NPM 包、CI/CD、Vue React.
   - title: 🐛 爬坑指北
-    details: 爬坑指北
+    details: install 常见问题
   - title: 🦋 武器库
-    details: 武器库
+    details: VScode、工具库
 
 ---

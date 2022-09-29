@@ -18,7 +18,7 @@ export function sidebarStandard() {
       ]
     },
     {
-      text: '常用规范模板',
+      text: '常用文档模板',
       collapsible: true,
       items: [
         { text: '业务项目 Readme 模板', link: '/standard/readme-template' },
