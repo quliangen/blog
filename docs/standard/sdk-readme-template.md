@@ -51,7 +51,7 @@ xxx()
 1. Clone the repo
 
     ```shell
-    git clone git@git.corp.shiqiao.com:bigfrontend/infrastructure/xxx.git
+    git clone xxx.git
     ```
 
 2. 安装依赖

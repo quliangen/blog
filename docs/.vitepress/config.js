@@ -49,6 +49,7 @@ function sidebarProject() {
       text: 'NPM 包',
       collapsible: true,
       items: [
+        { text: '如何开发 NPM 包 ？', link: '/project/npm/npm-starter-simple' },
         { text: '开发调试发布 NPM 包流程', link: '/project/npm/npm-starter' },
         { text: 'NPM 包管理规范', link: '/project/npm/npm-standard' }
       ]
@@ -64,7 +65,7 @@ function sidebarProject() {
       text: 'Vue',
       collapsible: true,
       items: [
-        { text: 'vuecli升级v4并迁移pnpm方案', link: '/project/vue/vue项目升级cli到v4并迁移pnpm方案' }
+        { text: '@vue/cli 升级v4并迁移pnpm方案', link: '/project/vue/vue项目升级cli到v4并迁移pnpm方案' }
       ]
     }
   ]
