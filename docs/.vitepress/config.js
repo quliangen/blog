@@ -95,6 +95,13 @@ function sidebarTool() {
       ]
     },
     {
+      text: '我的 Github 开源',
+      collapsible: true,
+      items: [
+        { text: '项目清单', link: '/tool/github' }
+      ]
+    },
+    {
       text: '三方利器',
       collapsible: true,
       items: [
