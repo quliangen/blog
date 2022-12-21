@@ -13,7 +13,7 @@
 sentrycli_cdnurl=https://npmmirror.com/mirrors/sentry-cli
 ```
 
-## node-sas
+## node-sass
 
 项目拉取依赖 `node-sass` binary 失败
 
