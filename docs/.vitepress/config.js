@@ -58,7 +58,8 @@ function sidebarProject() {
       text: 'CI/CD',
       collapsible: true,
       items: [
-        { text: '前端增量部署', link: '/project/cicd/incremental' }
+        { text: '部署前端资源到服务器常用指令', link: '/project/cicd/deploy' },
+        { text: '前端增量部署', link: '/project/cicd/incremental' },
       ]
     },
     {
