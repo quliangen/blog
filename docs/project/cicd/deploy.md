@@ -31,4 +31,4 @@ rm -rf /data/web/wap/static; mv /data/web/tmp/dist/* /data/web/wap
 # /usr/local/openresty/nginx/sbin/nginx -s reload
 ```
 
-## 4：增加发布 参照 [前端增量部署]('./incremental.md')
+## 4：增加发布 参照 [前端增量部署](./incremental.md)
