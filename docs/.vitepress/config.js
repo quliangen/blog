@@ -36,7 +36,7 @@ export default defineConfig({
 function nav() {
   return [
     { text: '规范', link: '/standard/git', activeMatch: '/standard/' },
-    { text: '工程化', link: '/project/npm/npm-starter', activeMatch: '/project/' },
+    { text: '工程化', link: '/project/npm/npm-starter-simple', activeMatch: '/project/' },
     { text: '爬坑指北', link: '/bugfix/install-question', activeMatch: '/bugfix/' },
     { text: '武器库', link: '/tool/vscode-hotkeys', activeMatch: '/tool/' },
 
@@ -50,7 +50,6 @@ function sidebarProject() {
       collapsible: true,
       items: [
         { text: '如何开发 NPM 包 ？', link: '/project/npm/npm-starter-simple' },
-        { text: '开发调试发布 NPM 包流程', link: '/project/npm/npm-starter' },
         { text: 'NPM 包管理规范', link: '/project/npm/npm-standard' }
       ]
     },
