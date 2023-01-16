@@ -26,7 +26,7 @@ export default defineConfig({
 
     footer: {
       message: '根据 MIT 许可证发布',
-      copyright: 'Copyright © 2022-present LiangEn Qu'
+      copyright: 'Copyright © 2023-present LiangEn Qu'
     }
 
   }
@@ -59,6 +59,8 @@ function sidebarProject() {
       items: [
         { text: '部署前端到(NG)常用指令', link: '/project/cicd/deploy' },
         { text: '前端增量部署', link: '/project/cicd/incremental' },
+        { text: '通过 Docker 学习 Nginx ', link: '/project/cicd/nginx-docker' },
+
       ]
     },
     {
