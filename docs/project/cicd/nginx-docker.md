@@ -2,12 +2,12 @@
 # 通过 Docker 学习 Nginx 
  
 ## 1. 缘起
-记得当年在传智学习的时候，老师一步步苦口婆心教使用 Apache，后来工作关系学习了一丢丢 NG。最近在看【山月大佬的文章】[基于NG镜像部署及学习NG镜像]('https://q.shanyue.tech/deploy/simple-nginx.html#nginx-%E9%95%9C%E5%83%8F')，觉得很有意思记录一下。
+记得当年在传智学习的时候，老师一步步苦口婆心教使用 Apache，后来工作关系学习了一丢丢 NG。最近在看【山月大佬的文章】[基于NG镜像部署及学习NG镜像](https://q.shanyue.tech/deploy/simple-nginx.html#nginx-%E9%95%9C%E5%83%8F)，觉得很有意思记录一下。
 
 
 ## 2. Docker中 运行 NG 镜像。
 
-2.1 安装 Docker 并打开。[下载]('https://www.docker.com/get-started/'') 后安装即可。
+2.1 安装 Docker 并打开。[下载](https://www.docker.com/get-started/) 后安装即可。
 
 2.2 终端运行 NG 镜像
 
@@ -18,7 +18,7 @@ docker run -it --rm -p 3333:80 nginx:alpine
 ```
 <img src="./images/ng_docker_cmd.jpg" width="600px" />
 
-2.3 浏览器访问 http://localhost:3333/  
+2.3 浏览器访问 localhost:3333
 对这就跑起来了。同时同时终端打印以下日志。
 
 浏览器页面：
