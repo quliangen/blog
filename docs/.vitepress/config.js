@@ -79,7 +79,8 @@ function sidebarBugfix() {
       text: '爬坑指北',
       collapsible: true,
       items: [
-        { text: '前端项目 install 常见问题', link: '/bugfix/install-question' }
+        { text: '前端项目 install 常见问题', link: '/bugfix/install-question' },
+        { text: 'Mac m1运行 xcode13 常见问题', link: '/bugfix/mac-m1-xcode13' }
         // { text: 'two', link: '/bugfix/two' },
         // { text: 'three', link: '/bugfix/two' }
       ]
