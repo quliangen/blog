@@ -50,7 +50,8 @@ function sidebarProject() {
       collapsible: true,
       items: [
         { text: '如何开发 NPM 包 ？', link: '/project/npm/npm-starter-simple' },
-        { text: 'NPM 包管理规范', link: '/project/npm/npm-standard' }
+        { text: 'NPM 包管理规范', link: '/project/npm/npm-standard' },
+        { text: '极简Pnpm Monorepo 单体仓库', link: '/project/npm/pnpm-monorepo' },
       ]
     },
     {
