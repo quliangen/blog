@@ -7,8 +7,7 @@
 <img src="./images/h5template.png" width="320px">
 
 ## Vue3 数据大屏项目模板
-+ 待开源
-+ 地址：https://github.com/quliangen/vue3-vite4-dashboard
++ 地址：https://github.com/quliangen/vue3-vite5-dashboard
 ![image](./images/dashboard.gif)
 
 ## Vue 组件库项目模板
