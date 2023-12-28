@@ -22,5 +22,6 @@ features:
     details: install 常见问题
   - title: 🦋 武器库
     details: VScode、工具库
-
+  - title: 🚀 Harmony OS 
+    details: 鸿蒙
 ---

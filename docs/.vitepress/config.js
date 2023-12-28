@@ -21,7 +21,9 @@ export default defineConfig({
       '/standard/': sidebarStandard(),
       '/project/': sidebarProject(),
       '/bugfix/': sidebarBugfix(),
-      '/tool/': sidebarTool()
+      '/tool/': sidebarTool(),
+      '/harmony-os/': sidebarHarmony(),
+
     },
 
     footer: {
@@ -39,7 +41,7 @@ function nav() {
     { text: '工程化', link: '/project/npm/npm-starter-simple', activeMatch: '/project/' },
     { text: '爬坑指北', link: '/bugfix/install-question', activeMatch: '/bugfix/' },
     { text: '武器库', link: '/tool/vscode-hotkeys', activeMatch: '/tool/' },
-
+    { text: 'Harmony OS', link: '/harmony-os/setup', activeMatch: '/harmony-os/' },
   ]
 }
 
@@ -112,5 +114,17 @@ function sidebarTool() {
         { text: '实用工具库', link: '/tool/libs' }
       ]
     }
+  ]
+}
+
+function sidebarHarmony() {
+  return [
+    {
+      text: '',
+      collapsible: true,
+      items: [
+        { text: '前端开箱-Harmony OS', link: '/harmony-os/setup' }
+      ]
+    },
   ]
 }
