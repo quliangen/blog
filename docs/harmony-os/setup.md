@@ -48,4 +48,34 @@
 9. 再次运行程序
    <img src="./images/helloharmony.png" width="320px">
 
-##### 刚开始接触，开发体验都很顺畅，基本无坑。后面先从基础开始。
+刚开始接触，开发体验很顺畅，基本无坑。后面先从基础开始。
+
+
+#### 彩蛋：
+> 痛：每次修改代码->保存-->重新run,略费手指，且虚拟器占用内容较大配置低的win电脑可能吃不消。
+
+> 问题：能不能像web开发体验一样，实时预览？
+
+##### 当然可以！！！
+1. 
+   <div style="display: flex;">
+    <div style="margin-right: 8px;">
+      点击右侧 Previewer开启预览
+      <img src="./images/预览-01.jpg" width="300px"> 
+    </div>
+    <div>
+      修改代码 command + s 保存，实时预览。
+      <img src="./images/预览-02.png" width="300px">
+    </div>
+   </div>
+   
+2. 多终端预览。
+  <img src="./images/预览-03.png" width="500px"> 
+  
+1. 开启自动保存代码
+   > 进入 Configure --> Preferences --> Appearance & Behavior
+   > 点击 System-Settings
+   > 勾选 Save files if the IDE is idle for 15 seconds
+   > 表示IDE空闲15秒即自动保存文件，可自行修改空闲保存时长，自动保存后预览器实时预览
+  <img src="./images/设置5s自动保存.png" width="500px"> 
+   
