@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as p}from"./app.e23272e0.js";const A=JSON.parse('{"title":"NPM \u5305","description":"","frontmatter":{},"headers":[],"relativePath":"project/npm/npm-standard.md"}'),l={name:"project/npm/npm-standard.md"},o=p("",14),e=[o];function c(r,t,D,y,C,F){return n(),a("div",null,e)}const d=s(l,[["render",c]]);export{A as __pageData,d as default};
