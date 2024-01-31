@@ -2,8 +2,10 @@
 
 ## 缘起：万物互联、遥遥领先。
 
-### HarmonyOS 第一课 [传送门](https://developer.harmonyos.com/cn/documentation/teaching-video/)
+### HarmonyOS 第一课 [传送门](https://developer.harmonyos.com/cn/documentation/teaching-video/) 官方详细视频讲解[创新实训营：DevEco开发套件特性介绍](https://developer.huawei.com/consumer/cn/training/course/video/C101705022216253130)
 > 跟着第一课开卷
+
+
 
 #### 一、下载开发套件 DevEco Studio
 + 访问 [HUAWEI DevEco Studio](https://developer.huawei.com/consumer/cn/deveco-studio/) 选择系统 版本下载
