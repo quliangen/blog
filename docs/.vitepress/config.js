@@ -50,6 +50,13 @@ function nav() {
 function sidebarProject() {
   return [
     {
+      text: '博客项目',
+      collapsible: true,
+      items: [
+        { text: '技术架构评估与升级计划', link: '/project/tech-upgrade-plan' }
+      ]
+    },
+    {
       text: 'NPM 包',
       collapsible: true,
       items: [

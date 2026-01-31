@@ -1,10 +1,17 @@
 {
+	"name": "blog",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=20"
+	},
 	"scripts": {
 		"dev": "vitepress dev docs",
 		"build": "vitepress build docs",
 		"serve": "vitepress serve docs"
 	},
 	"devDependencies": {
-		"vitepress": "^1.0.0-alpha.15"
+		"vitepress": "^1.0.0"
 	}
 }
