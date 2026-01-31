@@ -18,6 +18,7 @@ export default defineConfig({
     nav: nav(),
 
     sidebar: {
+      '/ai/': sidebarAi(),
       '/standard/': sidebarStandard(),
       '/project/': sidebarProject(),
       '/bugfix/': sidebarBugfix(),
@@ -37,6 +38,7 @@ export default defineConfig({
 // 右上侧导航条
 function nav() {
   return [
+    { text: 'Ai', link: '/ai/claude-code-setup', activeMatch: '/ai/' },
     { text: '规范', link: '/standard/git', activeMatch: '/standard/' },
     { text: '工程化', link: '/project/npm/npm-starter-simple', activeMatch: '/project/' },
     { text: '爬坑指北', link: '/bugfix/install-question', activeMatch: '/bugfix/' },
@@ -126,5 +128,17 @@ function sidebarHarmony() {
         { text: '前端开箱-Harmony OS', link: '/harmony-os/setup' }
       ]
     },
+  ]
+}
+
+function sidebarAi() {
+  return [
+    {
+      text: '编程工具',
+      collapsible: true,
+      items: [
+        { text: 'Claude Code 安装配置', link: '/ai/claude-code-setup' }
+      ]
+    }
   ]
 }
