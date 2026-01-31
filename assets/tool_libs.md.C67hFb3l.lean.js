@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,ae as r}from"./chunks/framework.h0LyDJ8h.js";const b=JSON.parse('{"title":"实用工具库:wip","description":"","frontmatter":{},"headers":[],"relativePath":"tool/libs.md","filePath":"tool/libs.md"}'),h={name:"tool/libs.md"};function i(l,a,s,d,n,c){return o(),t("div",null,[...a[0]||(a[0]=[r("",10)])])}const _=e(h,[["render",i]]);export{b as __pageData,_ as default};
