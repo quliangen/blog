@@ -144,7 +144,8 @@ function sidebarAi() {
       text: '编程工具',
       collapsible: true,
       items: [
-        { text: 'Claude Code 安装配置', link: '/ai/claude-code-setup' }
+        { text: 'Claude Code 安装配置', link: '/ai/claude-code-setup' },
+        { text: '构建现有项目 AI 基建指北', link: '/ai/existing-project-ai-setup' }
       ]
     }
   ]
