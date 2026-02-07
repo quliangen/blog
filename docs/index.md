@@ -14,6 +14,8 @@ hero:
       link: /standard/code-comment
 
 features:
+  - title: 🤖 AI
+    details: Claude Code 安装配置与使用.
   - title: 🦄 规范  
     details: 代码规范、Git 规范、文档模板.
   - title: 🐲 工程化 
