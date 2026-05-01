@@ -145,6 +145,7 @@ function sidebarAi() {
       collapsible: true,
       items: [
         { text: 'Claude Code 安装配置', link: '/ai/claude-code-setup' },
+        { text: 'Hermes Agent 安装配置', link: '/ai/hermes-agent-setup' },
         { text: '构建现有项目 AI 基建指北', link: '/ai/existing-project-ai-setup' }
       ]
     }

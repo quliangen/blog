@@ -69,7 +69,7 @@ Rules 是 AI 编程工具的文件级上下文约束，通过 `globs` 匹配特�
 
 AI 将基于项目上下文生成包含 `description`、`globs`、`alwaysApply` 的规则文件。生成后检查：description 是否明确触发场景、globs 是否精确、约束是否可执行。
 
-### 2.3 Rules 技术规范
+### 2.2 Rules 技术规范
 
 不同 AI 工具的规则格式存在差异，核心字段通用：
 
@@ -98,7 +98,7 @@ Skills 支持两级存储，需根据复用范围选择：
 | **项目级** | 团队共享，随仓库版本控制 | `.cursor/skills/` | `.trae/skills/` |
 | **用户级** | 个人跨项目复用 | `~/.cursor/skills/` | 参考 Trae 文档 |
 
-> ⚠️ **注意**: Cursor 用户级 Skills 避免使用 `~/.cursor/skills-cursor/`，该目录为 Cursor 内置保留区。
+> ⚠️ **注意**: Cursor 用户级 Skills 使用 `~/.cursor/skills/`，避免使用 `~/.cursor/skills-cursor/`，后者为 Cursor 内置保留区。
 
 ### 3.2 驱动 AI 生成 Skills 的 Prompt
 
