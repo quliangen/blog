@@ -148,6 +148,38 @@ function sidebarAi() {
         { text: 'Hermes Agent 安装配置', link: '/ai/hermes-agent-setup' },
         { text: '构建现有项目 AI 基建指北', link: '/ai/existing-project-ai-setup' }
       ]
+    },
+    {
+      text: '前端工程师，从零开始学 AI',
+      collapsible: true,
+      items: [
+        { text: '00-导读：教程介绍与学习路线', link: '/ai/learn-ai-agent/00-introduction' },
+        { text: '01-什么是 AI Agent？', link: '/ai/learn-ai-agent/01-what-is-agent' },
+        { text: '02-Agent 架构解剖与框架选型', link: '/ai/learn-ai-agent/02-Agent-架构解剖与框架选型' },
+        { text: '03-Python 快速入门', link: '/ai/learn-ai-agent/03-Python 快速入门（前端工程师版）' },
+        { text: '04-Hello Agent', link: '/ai/learn-ai-agent/04-Hello Agent：你的第一个智能助手' },
+        { text: '05-工具开发', link: '/ai/learn-ai-agent/05-给-Agent-装上「手脚」：工具开发' },
+        { text: '06-记忆系统', link: '/ai/learn-ai-agent/06-Agent 的记忆系统' },
+        { text: '07-RAG 系统（上）', link: '/ai/learn-ai-agent/07-RAG-系统（上）：文档加载与切分' },
+        { text: '08-RAG 系统（下）', link: '/ai/learn-ai-agent/08-RAG 系统（下）：检索与生成' },
+        { text: '09-MCP 协议', link: '/ai/learn-ai-agent/09-MCP-协议与工具生态' },
+        { text: '10-多 Agent 协作', link: '/ai/learn-ai-agent/10-多 Agent 协作与工作流编排' },
+        { text: '11-Agent 服务化', link: '/ai/learn-ai-agent/11-agent-api' },
+        { text: '12-React 接入实战', link: '/ai/learn-ai-agent/12-react-integration' },
+        { text: '13-Vue 接入实战', link: '/ai/learn-ai-agent/13-vue-integration' },
+        { text: '14-实时协作应用', link: '/ai/learn-ai-agent/14-realtime-collab' },
+        { text: '15-浏览器自动化', link: '/ai/learn-ai-agent/15-browser-automation' },
+        { text: '16-多模态 Agent', link: '/ai/learn-ai-agent/16-multimodal' },
+        { text: '17-RAG 进阶优化', link: '/ai/learn-ai-agent/17-rag-advanced' },
+        { text: '18-性能优化', link: '/ai/learn-ai-agent/18-performance' },
+        { text: '19-安全与成本', link: '/ai/learn-ai-agent/19-security' },
+        { text: '20-模型管理', link: '/ai/learn-ai-agent/20-model-management' },
+        { text: '21-可观测性', link: '/ai/learn-ai-agent/21-observability' },
+        { text: '22-容器化部署', link: '/ai/learn-ai-agent/22-deployment' },
+        { text: '23-项目：智能客服', link: '/ai/learn-ai-agent/23-project-customer-service' },
+        { text: '24-项目：AI 编程助手', link: '/ai/learn-ai-agent/24-project-code-assistant' },
+        { text: '25-项目：私有化部署', link: '/ai/learn-ai-agent/25-project-private-deployment' }
+      ]
     }
   ]
 }
